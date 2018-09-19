@@ -24,7 +24,7 @@ public class CurrentConditionDisplay implements Observer, DisplayElement {
 
     @Override
     public void display() {
-        Log.d("holi", "t->" + temperature+" h-> "+humidity);
+        Log.d("msg:", "t->" + temperature+" h-> "+humidity);
         //tv.setText(temperature + "F - " + humidity + "%");
     }
 
